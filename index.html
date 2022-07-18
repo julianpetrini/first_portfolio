@@ -1,220 +1,326 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <!-- =====BOX ICONS===== -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/f30a166a26.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Julian Petrini Jäggli Portfolio</title>
+  </head>
+  <body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+      <nav class="nav bd-grid">
+        <div>
+          <a href="#" class="nav__logo">Julian Petrini Jäggli | Portfolio</a>
+        </div>
 
-        <link rel="stylesheet" href="assets/css/styles.css">
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active">HELLO </a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">ABOUT </a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">SKILLS </a>
+            </li>
+            <li class="nav__item">
+              <a href="#work" class="nav__link">WORK </a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">THANKS </a>
+            </li>
+          </ul>
+        </div>
 
-        <!-- =====BOX ICONS===== -->
-        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
+    </header>
 
-        <title>Julian Petrini Jäggli Portfolio</title>
-    </head>
-    <body>
-        <!--===== HEADER =====-->
-        <header class="l-header">
-            
-            <nav class="nav bd-grid">
-                <div>
-                    <a href="#" class="nav__logo">Julian Petrini Jäggli | Portfolio</a>
-                </div>
+    <main class="l-main">
+      <!--===== HOME =====-->
+      <section class="home bd-grid" id="home">
+        <div class="home__data">
+          <h1 class="home__title">
+            Hi,<br />I'am <span class="home__title-color">Julian</span
+            ><br /><strong>Web Developer</strong>
+          </h1>
+        </div>
 
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item"><a href="#home" class="nav__link active">HELLO </a></li>
-                        <li class="nav__item"><a href="#about" class="nav__link">ABOUT </a></li>
-                        <li class="nav__item"><a href="#skills" class="nav__link">SKILLS </a></li>
-                        <li class="nav__item"><a href="#work" class="nav__link">WORK </a></li>
-                        <li class="nav__item"><a href="#contact" class="nav__link">THANKS </a></li>
-                    </ul>
-                </div>
+        <div class="home__social">
+          <a
+            href="https://www.linkedin.com/in/julianpetriniiaggli/"
+            class="home__social-icon"
+            target="_blank"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a
+            href="https://www.behance.net/julianpetrini"
+            class="home__social-icon"
+            target="_blank"
+            ><i class="bx bxl-behance"></i
+          ></a>
+          <a
+            href="https://github.com/julianpetrini"
+            class="home__social-icon"
+            target="_blank"
+            ><i class="bx bxl-github"></i
+          ></a>
+        </div>
 
-                <div class="
-                
-                nav__toggle" id="nav-toggle">
-                    <i class='bx bx-menu'></i>
-                </div>
-            </nav>
-        </header>
+        <div class="home__img">
+          <img src="assets/img/me.png" class="about__img" alt="" />
+        </div>
+      </section>
 
-        <main class="l-main">
-            <!--===== HOME =====-->
-            <section class="home bd-grid" id="home">
-                
-                <div class="home__data">
-                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Julian</span><br><strong>Content Creator</strong></h1>
-                </div>
+      <!--===== ABOUT =====-->
+      <section class="about section" id="about">
+        <h2 class="section-title">About</h2>
 
-                <div class="home__social">
-                    <a href="https://www.linkedin.com/in/julianpetriniiaggli/" class="home__social-icon" target="_blank"><i class='bx bxl-linkedin'></i></a>
-                    <a href="https://www.behance.net/julianpetrini" class="home__social-icon" target="_blank"><i class='bx bxl-behance' ></i></a>
-                    <a href="https://github.com/julianpetrini" class="home__social-icon" target="_blank"><i class='bx bxl-github' ></i></a>
-                </div>
+        <div class="about__container bd-grid">
+          <div class="about__img">
+            <video autoplay loop muted>
+              <source src="assets/video/hi.mp4" />
+            </video>
+          </div>
 
-                <div class="home__img">    
-                    <img src="assets/img/perfil.png" class="about__img" alt="">
-                </div>
-            </section>
+          <div>
+            <h2 class="about__subtitle">I'am Julian</h2>
+            <p class="about__text">
+              Thank you for your time and interest!<br /><br />
 
-            <!--===== ABOUT =====-->
-            <section class="about section " id="about">
-                <h2 class="section-title">About</h2>
+              I understand that the most important thing is time. That is why I
+              focus on my tasks with all my passion. I love the world of ideas
+              and creativity and my career path was about being a content
+              creator, customer service, and many more useful experiences.
+              Furthermore, I was always combining social skills and delivering
+              value. But I felt something was missing.
+              <strong>
+                One day I entered the developer field and fell in love right
+                away. A limitless opportunity to create and learn while staying
+                connected to the world we live in.</strong
+              >
+            </p>
+          </div>
+        </div>
+      </section>
 
-                <div class="about__container bd-grid">
-                    <div class="about__img">
-                        <video autoplay loop muted><source src= "assets/video/hi.mp4">
-                        </video>
-                    </div>
-                    
-                    <div>
-                        <h2 class="about__subtitle">I'am Julian</h2>
-                        <p class="about__text">Thank you for your time and interest!<br><br>
-                            
+      <!--===== SKILLS =====-->
+      <section class="skills section" id="skills">
+        <h2 class="section-title">Skills</h2>
 
-                            So, now that you are here, I would like to tell you a little bit about me.<br>I've been living all my life in Argentina, where I left all my friends and all my family to start my life in Zurich; 
-                            and yes for sure it is a challenge, but these I love the most.<br><br> I guess the main thing is, I don't define myself by the tools I use to create, instead, always looking to create from the heart, by the tools I use.<br><br>Every time that an idea comes, if I don't know how to do it, I learn what it takes to be able to express it
-                            <br><br>I'm a videographer, photographer, and, also studying to be a software developer (html, css, javscript) I think I could say, content creator. Almost all my professional career its been around production, creativity, sales, and customer service.<br><br>Hope you enjoy some of my works and wish to hear from you,
-                            have a great day.</p>           
-                    </div>                                   
-                </div>
-            </section>
-
-            <!--===== SKILLS =====-->
-            <section class="skills section" id="skills">
-                <h2 class="section-title">Skills</h2>
-
-                <div class="skills__container bd-grid">          
-                    <div>
-                        <h2 class="skills__subtitle">Profesional Skills </h2>
-                        <h3 class="skills__subtitle">( so far )</h3>
-                        <p class="skills__text"></p>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxs-brain skills__icon'></i>
-                                <span class="skills__name">CREATIVITY & DEVELOPMENT</span>
-                            </div>
-                            <div class="skills__bar skills__crea">
-                            </div>
-                            <div>
-                                <span class="skills__percentage">91%</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-adobe skills__icon'></i>
-                                <span class="skills__name">PREMIERE | PHOTOSHOP | XD</span>
-                            </div>
-                            <div class="skills__bar skills__adobe">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">79%</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-html5 skills__icon'></i>
-                                <span class="skills__name">HTML5</span>
-                            </div>
-                            <div class="skills__bar skills__html">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">68%</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxs-file-css skills__icon'></i>
-                                <span class="skills__name">CSS3</span>
-                            </div>
-                            <div class="skills__bar skills__css">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">72%</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-javascript skills__icon' ></i>
-                                <span class="skills__name">JAVASCRIPT</span>
-                            </div>
-                            <div class="skills__bar skills__js">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">40%</span>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div>              
-                        <video autoplay loop muted class="skills__img"><source src="assets/video/profile.mp4">
-                        </video>
-                    </div>
-                </div>
-            </section>
-
-            <!--===== WORK =====-->
-            <section class="work section" id="work">
-                <h2 class="section-title">Some of the works</h2>
-
-                <div class="work__container bd-grid">
-                    <div class="work__img">
-                        <a href="https://www.behance.net/gallery/126067881/ZURICH-Possibility-in-action"  target="_blank">
-                        <img src="assets/img/work1.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="work__img">
-                        <a href="https://www.behance.net/gallery/114335895/Infusio-e-Mundi"  target="_blank">
-                        <img src="assets/img/work2.jpg" alt="">
-                    </a>
-                    </div>
-                    <div class="work__img">
-                        <a href="https://www.behance.net/gallery/114344865/BH-Mallorca-IG"  target="_blank">
-                        <img src="assets/img/work3.jpg" alt="">
-                    </a>
-                    </div>
-                    <div class="work__img">
-                        <a href="https://www.behance.net/gallery/114336531/Cenas-pasionarias"  target="_blank">
-                        <img src="assets/img/work4.jpg" alt="">
-                    </a>
-                    </div>
-                </div>
-            </section>
-
-            <!--===== THANKS =====-->
-            <section class="contact section" id="contact">
-                <h2 class="section-title">Thanks</h2>
-                <div>              
-                    <video autoplay loop muted class="skills__img"><source src="assets/video/cafeereel.mp4">
-                    </video>
-                </div>
-                <div class="thanks__text">
-                <p class="about__text">I would like to say thanks for your time and interest.<br>One true thing is that time doesn´t come back so I'm here to add value to it. 
-                    <br>There are lots of things I don´t know and every day I find some new ones, but you can be sure that I´m humble enough to listen, learn, and do, which I think is one of the most efficient ways someone could flow and growth.<br>Hope to hear from you!</p>
-                </div>
-            </section>
-        </main>
-
-        <!--===== FOOTER =====-->
-        <footer class="footer">
-            <p class="footer__title">maybe, the important thing is how the story is told</p>
-            <div class="footer__social">
-                <a href="https://www.linkedin.com/in/julianpetriniiaggli/" class="footer__icon" target="_blank"><i class='bx bxl-linkedin' ></i></a>
-                <a href="https://www.instagram.com/jpet.jpet/" class="footer__icon" target="_blank"><i class='bx bxl-instagram' ></i></a>
-                <a href="https://www.behance.net/julianpetrini" class="footer__icon" target="_blank"><i class='bx bxl-behance' ></i></a>
-                <a href="https://github.com/julianpetrini" class="footer__icon" target="_blank"><i class='bx bxl-github' ></i></a>
+        <div class="skills__container bd-grid">
+          <div>
+            <p class="skills__text"></p>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxl-sass skills__icon"></i>
+                <span class="skills__name">SASS</span>
+              </div>
+              <div class="skills__bar skills__crea"></div>
+              <div>
+                <span class="skills__percentage"></span>
+              </div>
             </div>
-        </footer>
+            <p class="skills__text"></p>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxl-php php"></i>
+                <span class="skills__name">PHP</span>
+              </div>
+              <div class="skills__bar skills__crea"></div>
+              <div>
+                <span class="skills__percentage"></span>
+              </div>
+            </div>
+            <p class="skills__text"></p>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="fa-brands fa-laravel"></i>
+                <span class="skills__name">LARAVEL</span>
+              </div>
+              <div class="skills__bar skills__crea"></div>
+              <div>
+                <span class="skills__percentage"></span>
+              </div>
+            </div>
+            <p class="skills__text"></p>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxs-brain skills__icon"></i>
+                <span class="skills__name">CREATIVITY & DEVELOPMENT</span>
+              </div>
+              <div class="skills__bar skills__crea"></div>
+              <div>
+                <span class="skills__percentage"></span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxl-adobe skills__icon"></i>
+                <span class="skills__name">PREMIERE | PHOTOSHOP | XD</span>
+              </div>
+              <div class="skills__bar skills__adobe"></div>
+              <div>
+                <span class="skills__percentage"></span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxl-html5 skills__icon"></i>
+                <span class="skills__name">HTML5</span>
+              </div>
+              <div class="skills__bar skills__html"></div>
+              <div>
+                <span class="skills__percentage"></span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxs-file-css skills__icon"></i>
+                <span class="skills__name">CSS</span>
+              </div>
+              <div class="skills__bar skills__css"></div>
+              <div>
+                <span class="skills__percentage"></span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxl-javascript skills__icon"></i>
+                <span class="skills__name">JAVASCRIPT</span>
+              </div>
+              <div class="skills__bar skills__js"></div>
+              <div>
+                <span class="skills__percentage"></span>
+              </div>
+            </div>
+          </div>
 
+          <div>
+            <video autoplay loop muted class="skills__img">
+              <source src="assets/video/profile.mp4" />
+            </video>
+          </div>
+        </div>
+      </section>
 
-        <!--===== SCROLL REVEAL =====-->
-        <script src="https://unpkg.com/scrollreveal"></script>
+      <!--===== WORK =====-->
+      <section class="work section" id="work">
+        <h2 class="section-title">Some of the works</h2>
 
-        <!--===== MAIN JS =====-->
-        <script src="assets/js/main.js"></script>
-    </body>
+        <div class="work__container bd-grid">
+          <div class="work__img">
+            <a
+              href="https://github.com/julianpetrini/the-shelfinator"
+              target="_blank"
+            >
+              <img src="assets/img/THE SHELFINATOR.png" alt="" />
+            </a>
+          </div>
+          <div class="work__img">
+            <a
+              href="https://github.com/julianpetrini/vue-project-opportunity-welcome"
+              target="_blank"
+            >
+              <img src="assets/img/WELCOME APP.png" alt="" />
+            </a>
+          </div>
+          <div class="work__img">
+            <a
+              href="https://github.com/julianpetrini/Julian-Book-a-Course"
+              target="_blank"
+            >
+              <img src="assets/img/Book_a_course_screen.png" alt="" />
+            </a>
+          </div>
+          <div class="work__img">
+            <a
+              href="https://github.com/julianpetrini/LARAVEL_OPPORTUNITY"
+              target="_blank"
+            >
+              <img src="assets/img/GOODSIP.png" alt="" />
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!--===== THANKS =====-->
+      <section class="contact section" id="contact">
+        <h2 class="section-title">Thanks</h2>
+        <div class="video__container">
+          <video autoplay loop muted class="about__video">
+            <source src="assets/video/cafeereel.mp4" />
+          </video>
+
+          <div class="thanks__text">
+            <p class="about__text">
+              I would like to say thanks for your time and interest.<br />One
+              true thing is that time doesn´t come back so I'm here to add value
+              to it. <br />There are lots of things I don´t know and every day I
+              find some new ones, but you can be sure that I´m humble enough to
+              listen, learn, and do, which I think is one of the most efficient
+              ways someone could flow and growth.<br />Hope to hear from you!
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+      <p class="footer__title">
+        maybe, the important thing is how the story is told
+      </p>
+      <div class="footer__social">
+        <a
+          href="https://www.linkedin.com/in/julianpetriniiaggli/"
+          class="footer__icon"
+          target="_blank"
+          ><i class="bx bxl-linkedin"></i
+        ></a>
+        <a
+          href="https://www.instagram.com/jpet.jpet/"
+          class="footer__icon"
+          target="_blank"
+          ><i class="bx bxl-instagram"></i
+        ></a>
+        <a
+          href="https://www.behance.net/julianpetrini"
+          class="footer__icon"
+          target="_blank"
+          ><i class="bx bxl-behance"></i
+        ></a>
+        <a
+          href="https://github.com/julianpetrini"
+          class="footer__icon"
+          target="_blank"
+          ><i class="bx bxl-github"></i
+        ></a>
+      </div>
+    </footer>
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
