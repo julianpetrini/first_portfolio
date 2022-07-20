@@ -1,6 +1,8 @@
 /*===== GOOGLE FONTS =====*/
 @import url("https://fonts.googleapis.com/css2?family=Domine:wght@400;500;700&display=swap");
 
+
+
 /*===== VARIABLES CSS =====*/
 :root {
   --header-height: 3rem;
@@ -69,6 +71,8 @@ body {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   color: var(--second-color);
+  
+
 }
 h1,
 h2,
@@ -89,11 +93,12 @@ img {
   display: block;
 }
 
-video {
+.about__video {
   width: 100%;
   position: relative;
   overflow: hidden;
   height: auto;
+  border-radius: 5%;
 }
 
 /*===== CLASS CSS ===== */
@@ -147,6 +152,7 @@ video {
   justify-content: space-between;
   align-items: center;
   font-weight: var(--font-semi);
+  
 }
 @media screen and (max-width: 768px) {
   .nav__menu {
@@ -222,7 +228,7 @@ video {
 }
 .home__title {
   font-size: var(--big-font-size);
-  margin-bottom: var(--mb-5);
+  /* margin-bottom: var(--mb-5); */
 }
 .home__title-color {
   color: var(--first-color);
@@ -246,6 +252,14 @@ video {
   bottom: 0;
   width: 295px;
   margin: 1rem;
+}
+
+.change:hover strong {
+  display: none;
+}
+
+.change:hover:before {
+  content: "a human being!"
 }
 
 /*BUTTONS*/
@@ -309,6 +323,8 @@ video {
   align-items: center;
 }
 /* ===== WORK =====*/
+
+
 .work__container {
   row-gap: 2rem;
 }
@@ -320,14 +336,20 @@ video {
 .work__img img {
   transition: 1s;
   cursor: pointer;
-  filter: brightness(0.4);
+  
 }
 .work__img img:hover {
   transform: scale(1.1);
   filter: none;
+  filter: brightness(0.4);
 }
 
 /* ===== THANKS =====*/
+.thanks__video {
+  max-height: 60vh;
+  width: auto;
+  border-radius: 50% 20% / 10% 40%;
+}
 .about__text {
   text-align: justify;
 }
@@ -387,10 +409,7 @@ video {
     justify-content: center;
     align-items: center;
   }
-  .about__video {
-    max-height: 60vh;
-    width: auto;
-  }
+  
 
   .about__text {
     text-align: justify;
