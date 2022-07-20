@@ -160,6 +160,14 @@ video {
     transition: 0.5s;
   }
 }
+@media screen and (min-width: 980px) {
+  .thanks__text{
+    font-size: var(--normal-font-size);
+    margin-top: var(--mb-2);
+    
+    max-width: 50vw;
+  }
+}
 .nav__item {
   margin-bottom: var(--mb-4);
 }
@@ -377,12 +385,20 @@ video {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-bottom: 3rem;
+    align-items: center;
   }
   .about__video {
     max-height: 60vh;
     width: auto;
   }
+
+  .about__text {
+    text-align: justify;
+    margin-top: 3rem;
+    line-height: 1.8;
+}
+
+
 
   .nav {
     height: calc(var(--header-height) + 1rem);
