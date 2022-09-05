@@ -355,6 +355,11 @@ img {
   padding-top: 75%; /* 4:3 Aspect Ratio */
 }
 
+.size{
+  height: 10vh;
+  width: auto;
+}
+
 .linkedin :hover{
   position: relative;
   width: 100%;
@@ -506,6 +511,7 @@ img {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     column-gap: 2rem;
+    margin-top: 1.5rem;
   }
   .contact__form {
     width: 360px;
@@ -523,4 +529,17 @@ img {
   .home__img {
     right: 10%;
   }
+}
+
+.dreamcloud__container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 60%;
+
+}
+.work{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
