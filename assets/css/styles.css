@@ -134,6 +134,7 @@ img {
   width: calc(100% - 2rem);
   margin-left: var(--mb-2);
   margin-right: var(--mb-2);
+  margin-top: 1rem;
 }
 .l-header {
   width: 100%;
@@ -289,6 +290,7 @@ img {
 }
 .about__img {
   justify-self: center;
+  max-width: 80%;
 }
 .about__img img {
   width: 200px;
